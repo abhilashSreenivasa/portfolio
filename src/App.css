@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Start off-screen to the right */
+  height: 100%;
+  width: 80%; /* Adjust the width as needed */
+  background-color: white; /* Set your background color */
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out; /* Add a transition for smooth sliding */
+}
+
+.mobileMenu.open {
+  transform: translateX(0); /* Slide in to the viewport */
+}
