@@ -1,5 +1,10 @@
+html{
+  background-color:  #F8F8FF;
+  min-height: 100%;
+}
 .App{
   font-style: 'verdana';
+ 
 }
 .main{
   display: flex;
@@ -21,4 +26,33 @@
   color: #4F4F4F;
   font-size:21px;
   margin-bottom: 10px;
+}
+#headshot{
+  width:60%;
+  height:35%;
+  margin-right:5%;
+}
+.main-content{
+  display:flex;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.main-content-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;  
+}
+.main-content-links-data{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: left;
+}
+.icon{
+  margin-right: 10px;
+}
+.hr-small{
+  width:100%;
+  margin-top:10%;
+  margin-bottom: 10%;
 }

@@ -10,7 +10,7 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
-    backgroundColor: 'white', // Set the background color to white
+    backgroundColor:'#F6F6EB',
     color: 'black', // Set the text color to black
     boxShadow:'none !important',
     border:'none !important',
@@ -30,9 +30,9 @@ const useStyles = makeStyles((theme) => ({
   },
   menuItem: {
     textDecoration: 'none',
-    color: '#636363', // Set the text color to black
+    color: '#4F4F4F', // Set the text color to black
     margin: '0 10px', // Add margin between menu items if needed
-    fontSize: '20px', // Increase font size
+    fontSize: '21px', // Increase font size
   },
 }));
 
