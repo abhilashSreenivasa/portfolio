@@ -78,6 +78,9 @@ function NavigationMenu() {
               <a href="/projects" className={classes.menuItem}>
                 Projects
               </a>
+              <a href="/skills" className={classes.menuItem}>
+                Skills
+              </a>
               <a href="/hobbies" className={classes.menuItem}>
                 Hobbies
               </a>
@@ -104,6 +107,11 @@ function NavigationMenu() {
         <MenuItem onClick={handleMobileMenuClose}>
           <a href="/projects" className={classes.menuItem}>
             Projects
+          </a>
+        </MenuItem>
+        <MenuItem onClick={handleMobileMenuClose}>
+          <a href="/skills" className={classes.menuItem}>
+                Skills
           </a>
         </MenuItem>
         <MenuItem onClick={handleMobileMenuClose}>
