@@ -29,18 +29,21 @@ html{
 }
 #headshot{
   width:60%;
-  height:35%;
+  height:100%;
   margin-right:5%;
 }
 .main-content{
   display:flex;
   margin-top: 15px;
   font-size: 24px;
+  height:35%;
+  margin-bottom: 10px;
 }
 .main-content-links{
   display: flex;
   flex-direction: column;
   justify-content: left;  
+  align-self: center;
 }
 .main-content-links-data{
   display: flex;
@@ -53,6 +56,15 @@ html{
 }
 .hr-small{
   width:100%;
-  margin-top:10%;
-  margin-bottom: 10%;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+.a-link{
+  color:rgb(14, 152, 106);
+}
+.header-h3{
+  font-size: 30px;
+}
+.info-text{
+  font-size:23px;
 }
