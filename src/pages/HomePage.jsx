@@ -9,31 +9,32 @@ function Home() {
       <hr className='hr-large'/>
       <NavigationMenu />
       <div className='main-content'>
-        <img src="headshot.jpeg" id='headshot'></img>
+       
+        <img src="headshot.jpeg" id='headshot' alt='Abhilash headshot'></img>
         <div className='main-content-links'>
              <div className='main-content-links-data'>
-                <img className='icon' src='icons/email.png'></img>
+                <img className='icon' src='icons/email.png' alt="Email Icon"></img>
                 <span>Email : <a className='a-link' href='mailto:abhilash.sreenivasa@gmail.com'> abhilash.sreenivasa@gmail.com </a></span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/github-sign.png'></img>
+                <img className='icon' src='icons/github-sign.png' alt="Github Icon"></img>
                 <span>Github : <a className='a-link' href='https://github.com/abhilashSreenivasa/'>  github.com/abhilashSreenivasa </a></span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/linkedin.png'></img>
+                <img className='icon' src='icons/linkedin.png' alt="Linkedin Icon"></img>
                 <span> Linkedin :<a className='a-link' href='https://www.linkedin.com/in/abhilash-sreenivasa-1b5256177/'> ln/abhilashSreenivasa</a> </span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/instagram.png'></img>
+                <img className='icon' src='icons/instagram.png' alt='Instagram Icon'></img>
                 <span> Instagram :<a className='a-link' href='https://www.instagram.com/abhilash_sreeenivas/'> instagram.com/abhilashSreenivasa </a> </span>        
             </div>
             <hr className='hr-small'/>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/professional-development.png'></img>
+                <img className='icon' src='icons/professional-development.png' alt='Work Icon'></img>
                 <span> 2+ years of professional experience</span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/mortarboard.png'></img>
+                <img className='icon' src='icons/mortarboard.png' alt='School icon'></img>
                 <span> Masters in Computer Science</span>        
             </div>
         </div>

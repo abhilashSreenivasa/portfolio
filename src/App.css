@@ -4,7 +4,6 @@ html{
 }
 .App{
   font-style: 'verdana';
- 
 }
 .main{
   display: flex;
@@ -37,7 +36,7 @@ html{
   margin-top: 15px;
   font-size: 24px;
   height:35%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .main-content-links{
   display: flex;
@@ -56,8 +55,8 @@ html{
 }
 .hr-small{
   width:100%;
-  margin-top:15px;
-  margin-bottom: 15px;
+  margin-top:20px;
+  margin-bottom: 20px;
 }
 .a-link{
   color:rgb(14, 152, 106);
@@ -67,4 +66,38 @@ html{
 }
 .info-text{
   font-size:23px;
+  line-height: 1.5;
+}
+.main-content-experience{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.experience-company{
+  display:flex;
+  width:100%;
+}
+.work-title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight:500;
+
+}
+.work-desc{
+  display:flex;
+  font-size: 24px;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  width:75%;
+  box-sizing: border-box;
+}
+.work-duration{
+  font-size: 21px;
+  color:rgb(73, 72, 72)
+}
+.company-logo{
+  width:20%;
+  margin-right:5%
 }
