@@ -5,15 +5,15 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Hidden from '@mui/material/Hidden'; // Import Hidden component
+import Hidden from '@mui/material/Hidden';
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
-    backgroundColor:'#F6F6EB',
-    color: 'black', // Set the text color to black
-    boxShadow:'none !important',
-    border:'none !important',
+    backgroundColor: '#F6F6EB',
+    color: 'black',
+    boxShadow: 'none !important',
+    border: 'none !important',
     transition: 'width 0.3s ease',
   },
   menuButton: {
@@ -24,15 +24,22 @@ const useStyles = makeStyles((theme) => ({
   },
   menuItems: {
     display: 'flex',
-    justifyContent: 'left', // Center-align the menu items
-    alignItems: 'center', // Vertically center-align the menu items
-    width:'100%'
+    justifyContent: 'space-between', 
+    alignItems: 'center',
+    width: '100%',
   },
   menuItem: {
     textDecoration: 'none',
-    color: '#4F4F4F', // Set the text color to black
-    margin: '0 10px', // Add margin between menu items if needed
-    fontSize: '21px', // Increase font size
+    color: '#4F4F4F',
+    margin: '0 10px',
+    fontSize: '21px',
+  },
+  resumeLink: {
+    textDecoration: 'none',
+    color: '#4F4F4F',
+    margin: '0 10px',
+    fontSize: '21px',
+    textAlign: 'right', // Align the "Resume" link to the right
   },
 }));
 
@@ -50,8 +57,8 @@ function NavigationMenu() {
 
   return (
     <div>
-      <Hidden mdUp> {/* Hide the following content on screens bigger than md */}
-        <AppBar  className={classes.appBar}>
+      <Hidden mdUp>
+        <AppBar className={classes.appBar}>
           <Toolbar>
             <IconButton
               edge="start"
@@ -65,25 +72,29 @@ function NavigationMenu() {
           </Toolbar>
         </AppBar>
       </Hidden>
-      <Hidden smDown> {/* Hide the following content on screens smaller than sm */}
+      <Hidden smDown>
         <AppBar position='inherit' className={classes.appBar}>
           <Toolbar>
             <div className={classes.menuItems}>
-              <a href="/" className={classes.menuItem}>
-                Home
-              </a>
-              <a href="/experience" className={classes.menuItem}>
-                Experience
-              </a>
-              <a href="/projects" className={classes.menuItem}>
-                Projects
-              </a>
-              <a href="/skills" className={classes.menuItem}>
-                Skills
-              </a>
-              <a href="/hobbies" className={classes.menuItem}>
-                Hobbies
-              </a>
+              <div>
+                <a href="/" className={classes.menuItem}>
+                  Home
+                </a>
+                <a href="/experience" className={classes.menuItem}>
+                  Experience
+                </a>
+                <a href="/projects" className={classes.menuItem}>
+                  Projects
+                </a>
+                <a href="/skills" className={classes.menuItem}>
+                  Skills
+                </a>
+              </div>
+              <div>
+                <a href="resume.pdf" className={classes.resumeLink}>
+                  Resume
+                </a>
+              </div>
             </div>
           </Toolbar>
         </AppBar>
@@ -111,12 +122,12 @@ function NavigationMenu() {
         </MenuItem>
         <MenuItem onClick={handleMobileMenuClose}>
           <a href="/skills" className={classes.menuItem}>
-                Skills
+            Skills
           </a>
         </MenuItem>
         <MenuItem onClick={handleMobileMenuClose}>
-          <a href="/hobbies" className={classes.menuItem}>
-            Hobbies
+          <a href="resume.pdf" className={classes.menuItem}>
+            Resume
           </a>
         </MenuItem>
       </Menu>
