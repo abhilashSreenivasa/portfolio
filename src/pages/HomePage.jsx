@@ -17,6 +17,10 @@ function Home() {
                 <span>Email : <a className='a-link' href='mailto:abhilash.sreenivasa@gmail.com'> abhilash.sreenivasa@gmail.com </a></span>        
             </div>
             <div className='main-content-links-data'>
+                <img className='icon' src='icons/cell-phone.png' alt='Instagram Icon'></img>
+                <span> Phone :<a className='a-link' href='tel:+15305919454'> +1(530)-591-9454 </a> </span>        
+            </div>
+            <div className='main-content-links-data'>
                 <img className='icon' src='icons/github-sign.png' alt="Github Icon"></img>
                 <span>Github : <a className='a-link' href='https://github.com/abhilashSreenivasa/'>  github.com/abhilashSreenivasa </a></span>        
             </div>
