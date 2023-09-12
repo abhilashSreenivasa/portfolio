@@ -32,13 +32,13 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: 'none',
     color: '#4F4F4F',
     margin: '0 10px',
-    fontSize: '21px',
+    fontSize: '17px',
   },
   resumeLink: {
     textDecoration: 'none',
     color: '#4F4F4F',
     margin: '0 10px',
-    fontSize: '21px',
+    fontSize: '17px',
     textAlign: 'right', // Align the "Resume" link to the right
   },
 }));
@@ -73,7 +73,7 @@ function NavigationMenu() {
         </AppBar>
       </Hidden>
       <Hidden smDown>
-        <AppBar position='inherit' className={classes.appBar}>
+        <AppBar position='relative' className={classes.appBar}>
           <Toolbar>
             <div className={classes.menuItems}>
               <div>
@@ -91,8 +91,8 @@ function NavigationMenu() {
                 </a>
               </div>
               <div>
-                <a href="resume.pdf" className={classes.resumeLink}>
-                  Resume
+                <a href="/resume.pdf" className={classes.resumeLink}>
+                  Resume/CV
                 </a>
               </div>
             </div>
@@ -126,8 +126,8 @@ function NavigationMenu() {
           </a>
         </MenuItem>
         <MenuItem onClick={handleMobileMenuClose}>
-          <a href="resume.pdf" className={classes.menuItem}>
-            Resume
+          <a href="/resume.pdf" className={classes.menuItem}>
+            Resume/CV
           </a>
         </MenuItem>
       </Menu>

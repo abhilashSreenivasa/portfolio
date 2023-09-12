@@ -12,11 +12,11 @@ function Experience(){
                 <hr className="hr-small"/>
                 <div className="main-content-experience">
                     <div className="experience-company">
-                        <img className="company-logo" src="chico-logo.ico" alt="Chico State Logo"></img>
+                        <div className="company-logo"><img  src="/chico-logo.ico" alt="Chico State Logo"></img></div>
                         <div className="work-desc">
                             <div className="work-title">
                                 <div></div>
-                                <div><i> Web Development Intern , CSU Chico</i></div>
+                                <div>Web Development Intern , CSU Chico</div>
                                 <div className="work-duration">2021 OCT - PRESENT</div>
                             </div>
                             <ul>
@@ -31,11 +31,11 @@ function Experience(){
                     </div>
                     <hr className="hr-small"/>
                     <div className="experience-company">
-                        <img className="company-logo" src="antares-logo.png" alt="Antares Logo"></img>
+                    <div className="company-logo"><img  src="/antares-logo.png" alt="Antares Logo"></img></div>
                         <div className="work-desc">
                             <div className="work-title">
                                 <div></div>
-                                <div><i> Software Engineer - Antares Systems Limited - Bengaluru,India</i></div>
+                                <div> Software Engineer - Antares Systems Limited - Bengaluru, India</div>
                                 <div className="work-duration">NOV 2018 - SEPT 2019</div>
                             </div>
                             <ul>
@@ -48,11 +48,11 @@ function Experience(){
                     </div>
                     <hr className="hr-small"/>
                     <div className="experience-company">
-                        <img className="company-logo" src="Bosch-logo.png" alt="Bosch Logo"></img>
+                    <div className="company-logo"><img  src="/Bosch-logo.png" alt="Bosch Logo"></img> </div>
                         <div className="work-desc">
                             <div className="work-title">
                                 <div></div>
-                                <div><i> Web Developer Intern - Robert Bosch LLC - Bengaluru, India</i></div>
+                                <div> Web Developer Intern - Robert Bosch LLC - Bengaluru, India</div>
                                 <div className="work-duration"> JAN 2018 - AUGUST 2018</div>
                             </div>
                             <ul>

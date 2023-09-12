@@ -3,7 +3,7 @@ html{
   min-height: 100%;
 }
 .App{
-  font-style: 'verdana';
+  font-style:'serif','monospace','verdana';
 }
 .main{
   display: flex;
@@ -11,8 +11,8 @@ html{
   padding:50px 50px;
 }
 #header-name{
-  font-size:55px;
-  margin-bottom: 15px;
+  font-size:45px;
+  margin-bottom: 13px;
 }
 .hr-large{
   height:10px;
@@ -23,7 +23,7 @@ html{
 }
 #header-identity{
   color: #4F4F4F;
-  font-size:21px;
+  font-size:15px;
   margin-bottom: 10px;
 }
 #headshot{
@@ -34,7 +34,7 @@ html{
 .main-content{
   display:flex;
   margin-top: 15px;
-  font-size: 24px;
+  font-size: 17px;
   height:35%;
   margin-bottom: 20px;
 }
@@ -62,10 +62,10 @@ html{
   color:rgb(14, 152, 106);
 }
 .header-h3{
-  font-size: 30px;
+  font-size: 23px;
 }
 .info-text{
-  font-size:23px;
+  font-size:21px;
   line-height: 1.5;
 }
 .main-content-experience{
@@ -80,13 +80,14 @@ html{
 .work-title{
   display: flex;
   justify-content: space-between;
-  font-size: 30px;
+  font-size: 23px;
   font-weight:500;
+  align-items: center;
 
 }
 .work-desc{
   display:flex;
-  font-size: 24px;
+  font-size: 17px;
   justify-content: center;
   flex-direction: column;
   line-height: 1.5;
@@ -94,17 +95,24 @@ html{
   box-sizing: border-box;
 }
 .work-duration{
-  font-size: 21px;
+  font-size: 15px;
   color:rgb(73, 72, 72)
 }
 .company-logo{
   width:20%;
+
   margin-right:5%
+}
+.company-logo img{
+  min-width:150px;
+  max-width:250px;
+  min-height:150px;
+  max-height:250px;
 }
 .main-projects{
   display: flex;
   flex-direction: column;
-  font-size: 24px;
+  font-size: 17px;
 }
 .projects{
   display: flex;
@@ -113,15 +121,18 @@ html{
 .project-header{
   display: flex;
   justify-content: center;
-  font-size: 30px;
-  font-style: italic;
+  font-size: 23px;
+
+}
+.project-header a{
+  color:rgb(14, 152, 106);
 }
 .project-details{
   line-height: 1.5;
 }
 .skills{
   display:flex;
-  font-size: 21px;
+  font-size: 17px;
   flex-wrap: wrap;
   box-sizing: border-box;
   height:100%;
@@ -147,6 +158,6 @@ html{
   padding:0 20%;
 }
 .skill-header{
-  font-size: 30px;
+  font-size: 23px;
   align-self: center;
 }

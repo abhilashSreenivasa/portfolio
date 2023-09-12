@@ -13,32 +13,32 @@ function Home() {
         <img src="headshot.jpeg" id='headshot' alt='Abhilash headshot'></img>
         <div className='main-content-links'>
              <div className='main-content-links-data'>
-                <img className='icon' src='icons/email.png' alt="Email Icon"></img>
+                <img className='icon' src='/email.png' alt="Email Icon"></img>
                 <span>Email : <a className='a-link' href='mailto:abhilash.sreenivasa@gmail.com'> abhilash.sreenivasa@gmail.com </a></span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/cell-phone.png' alt='Instagram Icon'></img>
+                <img className='icon' src='cell-phone.png' alt='Instagram Icon'></img>
                 <span> Phone :<a className='a-link' href='tel:+15305919454'> +1(530)-591-9454 </a> </span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/github-sign.png' alt="Github Icon"></img>
+                <img className='icon' src='/github-sign.png' alt="Github Icon"></img>
                 <span>Github : <a className='a-link' href='https://github.com/abhilashSreenivasa/'>  github.com/abhilashSreenivasa </a></span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/linkedin.png' alt="Linkedin Icon"></img>
+                <img className='icon' src='/linkedin.png' alt="Linkedin Icon"></img>
                 <span> Linkedin :<a className='a-link' href='https://www.linkedin.com/in/abhilash-sreenivasa-1b5256177/'> ln/abhilashSreenivasa</a> </span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/instagram.png' alt='Instagram Icon'></img>
+                <img className='icon' src='/instagram.png' alt='Instagram Icon'></img>
                 <span> Instagram :<a className='a-link' href='https://www.instagram.com/abhilash_sreeenivas/'> instagram.com/abhilashSreenivasa </a> </span>        
             </div>
             <hr className='hr-small'/>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/professional-development.png' alt='Work Icon'></img>
+                <img className='icon' src='/professional-development.png' alt='Work Icon'></img>
                 <span> 2+ years of professional experience</span>        
             </div>
             <div className='main-content-links-data'>
-                <img className='icon' src='icons/mortarboard.png' alt='School icon'></img>
+                <img className='icon' src='/mortarboard.png' alt='School icon'></img>
                 <span> Masters in Computer Science</span>        
             </div>
         </div>
