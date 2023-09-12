@@ -119,3 +119,34 @@ html{
 .project-details{
   line-height: 1.5;
 }
+.skills{
+  display:flex;
+  font-size: 21px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height:100%;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+}
+.skills-group{
+  display:flex;
+  flex-direction: column;
+  width:40%;
+  justify-content: center;
+  align-items: baseline;
+  
+  margin: 10px;
+}
+.skill-group-item{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  width:60%;
+  padding:0 20%;
+}
+.skill-header{
+  font-size: 30px;
+  align-self: center;
+}
