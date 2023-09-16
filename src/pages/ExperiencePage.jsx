@@ -1,13 +1,10 @@
-import NavigationMenu from "../components/NavigationMenu"
+import HeaderItems from '../components/HeaderItems';
 
 function Experience(){
     return(
         <>
             <div className="main">
-                <div id='header-name'>Abhilash Sreenivasa</div>
-                <div id='header-identity'>Student | Software Engineer | Full-Stack Developer</div>
-                <hr className='hr-large'/>
-                <NavigationMenu />
+                <HeaderItems/>
                 <div className="header-h3">Experience</div>
                 <hr className="hr-small"/>
                 <div className="main-content-experience">

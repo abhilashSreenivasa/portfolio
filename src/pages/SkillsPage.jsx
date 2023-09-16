@@ -1,14 +1,11 @@
-import NavigationMenu from "../components/NavigationMenu"
 import StarRating from "../components/StarRating"
+import HeaderItems from '../components/HeaderItems';
 
 const Skills=()=>{
     return (
         <>
         <div className="main">
-            <div id='header-name'>Abhilash Sreenivasa</div>
-            <div id='header-identity'>Student | Software Engineer | Full-Stack Developer</div>
-            <hr className='hr-large'/>
-            <NavigationMenu />
+            <HeaderItems/>
             <div className="skills">
                 <div className="skills-group">
                     <div className="skill-header" >Programming Languages</div>

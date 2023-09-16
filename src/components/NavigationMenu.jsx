@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: 'none !important',
     border: 'none !important',
     transition: 'width 0.3s ease',
+    position:'relative'
   },
   menuButton: {
     marginRight: theme.spacing(2),

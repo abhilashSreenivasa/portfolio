@@ -1,13 +1,10 @@
 import React from 'react';
-import NavigationMenu from '../components/NavigationMenu';
+import HeaderItems from '../components/HeaderItems';
 
 function Home() {
   return (
     <div className="main">
-      <div id='header-name'>Abhilash Sreenivasa</div>
-      <div id='header-identity'>Student | Software Engineer | Full-Stack Developer</div>
-      <hr className='hr-large'/>
-      <NavigationMenu />
+      <HeaderItems/>
       <div className='main-content'>
        
         <img src="headshot.jpeg" id='headshot' alt='Abhilash headshot'></img>
