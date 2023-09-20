@@ -7,6 +7,7 @@ html{
   font-style:'serif','monospace','verdana';
 }
 
+
 .main{
   display: flex;
   flex-direction: column;
@@ -172,27 +173,33 @@ html{
     box-sizing: border-box;
   }
   .main{
-   padding: 0px;
-  
+   padding: 10px;
+   font-size: 17x;
   }
+ 
 
   #header-name {
-    font-size: 19px;
+    font-size: 25px;
+    margin-top: 15%;
+    align-self: center;
+    font-weight:600;
   }
 
   #header-identity {
-    font-size: 12px;
+    font-size: 17px;
+    align-self: center;
+    font-weight:600;
+   
   }
 
   .main-content {
     flex-direction: column;
-    font-size: 14px;
     align-items: center;
     max-width: 100%;
   }
   #headshot{
     padding:0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
     margin-right: 0px;
   }
@@ -200,17 +207,26 @@ html{
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: center;
-    justify-content: center ;
+    align-items: left;
+    justify-content: left ;
+    padding: 0px;
+    line-height: 2;
+    
   }
 
   .main-content-links-data {
     margin-bottom: 5px;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
+    padding:0px;
   }
 
   .info-text {
-    font-size: 16px;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1;
+    line-height: 1.5;
+    font-weight: 100;
+    font-style: normal;
   }
 }
