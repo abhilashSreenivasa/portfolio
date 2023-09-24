@@ -33,13 +33,13 @@ const useStyles = makeStyles((theme) => ({
     textDecoration: 'none',
     color: '#4F4F4F',
     margin: '0 10px',
-    fontSize: '17px',
+    fontSize: '15px',
   },
   resumeLink: {
     textDecoration: 'none',
     color: '#4F4F4F',
     margin: '0 10px',
-    fontSize: '17px',
+    fontSize: '15px',
     textAlign: 'right', // Align the "Resume" link to the right
   },
 }));
@@ -92,7 +92,7 @@ function NavigationMenu() {
                 </a>
               </div>
               <div>
-                <a href="/resume.pdf" className={classes.resumeLink}>
+                <a href="/resume.pdf" target='_blank' className={classes.resumeLink}>
                   Resume/CV
                 </a>
               </div>
@@ -127,7 +127,7 @@ function NavigationMenu() {
           </a>
         </MenuItem>
         <MenuItem onClick={handleMobileMenuClose}>
-          <a href="/resume.pdf" className={classes.menuItem}>
+          <a href="/resume.pdf" target='_blank' className={classes.menuItem}>
             Resume/CV
           </a>
         </MenuItem>
