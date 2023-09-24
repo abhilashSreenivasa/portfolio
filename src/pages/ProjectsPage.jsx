@@ -5,6 +5,8 @@ const Project=()=>{
         <>
         <div className="main">
             <HeaderItems/>
+            <div className="header-h3">Projects</div>
+            <hr className="hr-small"/>
             <div className="main-projects">
                 
                 <div className="projects">
