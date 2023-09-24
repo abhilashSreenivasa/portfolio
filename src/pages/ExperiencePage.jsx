@@ -12,7 +12,7 @@ function Experience(){
                         <div className="company-logo"><img  src="/chico-logo.ico" alt="Chico State Logo"></img></div>
                         <div className="work-desc">
                             <div className="work-title">
-                                <div></div>
+                                <div className='work-title-place-holder'></div>
                                 <div>Web Development Intern , CSU Chico</div>
                                 <div className="work-duration">2021 OCT - PRESENT</div>
                             </div>
